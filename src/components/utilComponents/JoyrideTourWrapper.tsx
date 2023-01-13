@@ -171,7 +171,7 @@ const tourSteps = {
         <div>
           Create templates to save your
           <br />
-          layout and midi settings.
+          layout and settings.
         </div>
       ),
       disableBeacon: true,
