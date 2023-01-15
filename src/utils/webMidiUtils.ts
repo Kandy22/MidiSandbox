@@ -1,7 +1,6 @@
 import { MIDI_DEVICES_SUPPORTED, chromaticNoteNumbers } from './utils';
-import { Utilities } from 'webmidi/dist/esm/webmidi.esm';
 import { useEffect, useState } from 'react';
-import { WebMidi } from 'webmidi';
+import { WebMidi, Utilities } from 'webmidi';
 
 // take a list of WebMidiJS inputs and map them to Midi Sandbox inputs, channels, notes to be used in redux
 function mapWebMidiInputs(

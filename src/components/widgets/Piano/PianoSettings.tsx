@@ -2,7 +2,7 @@ import { Grid, Slider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import { debounce } from 'lodash';
 import { useMemo, useState } from 'react';
-import { Utilities } from 'webmidi/dist/esm/webmidi.esm';
+import { Utilities } from 'webmidi';
 import { useAppDispatch } from '../../../redux/store';
 import { updateOneMidiBlock } from '../../../redux/slices/midiBlockSlice';
 

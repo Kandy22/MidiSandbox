@@ -4,7 +4,7 @@ import { Button, Tooltip } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import * as PIXI from 'pixi.js';
 import React from 'react';
-import { Utilities } from 'webmidi/dist/esm/webmidi.esm';
+import { Utilities } from 'webmidi';
 import { useAppDispatch, useTypedSelector } from '../../../redux/store';
 import innerSlice from '../../../assets/imgs/innerCircleOf5thSlice.svg';
 import outerSlice from '../../../assets/imgs/outerCircleOf5thSlice.svg';
