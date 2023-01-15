@@ -6,7 +6,7 @@ import {
 } from '@reduxjs/toolkit';
 import { RootState } from '../store';
 
-export const storageFolders = ['mxl', 'midi', 'audio', 'img'] as const;
+export const storageFolders = ['mxl', 'midi', 'audio', 'img', 'pdf'] as const;
 export type BucketFolder = typeof storageFolders[number];
 
 const fileUploadAdapter = createEntityAdapter<UploadedFileT>({

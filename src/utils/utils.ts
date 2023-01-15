@@ -80,6 +80,10 @@ export const getDefaultMidiBlock = (theme: Theme, layout?: Partial<Layout>) => {
       selectedFile: null,
       objectFit: 'cover',
     },
+    pdfViewerSettings: {
+      url: '',
+      selectedFile: null,
+    },
     midiFilePlayerSettings: {
       selectedMidiFiles: [],
       selectedAudioFile: {

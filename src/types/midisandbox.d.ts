@@ -136,6 +136,11 @@ interface ImageSettingsT {
   objectFit: 'fill' | 'contain' | 'cover' | 'none' | 'scale-down';
 }
 
+interface PdfViewerSettingsT {
+  url: string;
+  selectedFile: UploadedFileT | null;
+}
+
 interface UploadedFileT {
   filename: string;
   key: string;
@@ -355,6 +360,7 @@ interface MidiBlockT {
   colorSettings: ColorSettingsT;
   osmdSettings: OSMDSettingsT;
   imageSettings: ImageSettingsT;
+  pdfViewerSettings: PdfViewerSettingsT;
   youtubePlayerSettings: YoutubePlayerSettingsT;
   tonnetzSettings: TonnetzSettingsT;
   circleOfFifthsSettings: CircleOfFifthsSettingsT;
